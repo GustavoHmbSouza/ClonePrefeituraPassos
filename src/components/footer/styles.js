@@ -1,17 +1,10 @@
 import styled from 'styled-components';
-
-const roxoClaro1 = 'rgb(236, 231, 248)';
-const roxoClaro2 = 'rgb(204, 183, 253)';
-const roxoClaro3 = 'rgb(113, 89, 193)';
-
-const verdeAgua = 'rgb(3, 212, 167)';
-const boxShadowPadrao = '1px 2px 5px rgba(0, 0, 0, 0.5)';
-
-const bordaBotoesMenu = `color: ${verdeAgua}; border: 2px solid ${verdeAgua}; box-shadow: none;`;
+import { darken } from 'polished';
+import { CorPrimaria, CorSecundaria } from '../../styles/coresPadrao';
 
 export const Footer = styled.footer`
     #PrimeiraNav {
-        background: ${roxoClaro1};
+        background: ${darken(-0.35, CorPrimaria)};
 
         ul {
             display: grid;
@@ -25,7 +18,7 @@ export const Footer = styled.footer`
                 cursor: pointer;
 
                 &:hover {
-                    color: ${verdeAgua};
+                    color: ${CorSecundaria};
                 }
 
                 p {
@@ -35,7 +28,7 @@ export const Footer = styled.footer`
         }
     }
     #SegundaNav {
-        background: ${roxoClaro2};
+        background: ${darken(-0.25, CorPrimaria)};
 
         ul {
             display: grid;
@@ -48,13 +41,13 @@ export const Footer = styled.footer`
                 cursor: pointer;
 
                 &:hover {
-                    color: ${verdeAgua};
+                    color: ${CorSecundaria};
                 }
             }
         }
     }
     #TerceiraNav {
-        background: ${roxoClaro3};
+        background: ${CorPrimaria};
         display: flex;
         justify-content: space-between;
 

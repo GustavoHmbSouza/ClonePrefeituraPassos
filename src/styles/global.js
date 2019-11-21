@@ -15,7 +15,7 @@ export default createGlobalStyle`
 
     body
     {
-        background: #FFF;
+        background: rgb(239, 233, 255);
     }
 
     body, input, button
