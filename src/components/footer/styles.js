@@ -6,23 +6,29 @@ export const Footer = styled.footer`
     #PrimeiraNav {
         background: ${darken(-0.35, CorPrimaria)};
 
-        ul {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding: 10px;
+        div {
+            max-width: 1200px;
+            margin: auto;
+            padding: 15px 0;
 
-            li {
-                display: flex;
-                font-size: 14px;
-                padding: 6px;
-                cursor: pointer;
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                padding: 10px 0;
 
-                &:hover {
-                    color: ${CorSecundaria};
-                }
+                li {
+                    display: flex;
+                    font-size: 15.9px;
+                    padding: 10px 6px;
+                    cursor: pointer;
 
-                p {
-                    padding-left: 5px;
+                    &:hover {
+                        color: ${CorSecundaria};
+                    }
+
+                    p {
+                        padding-left: 5px;
+                    }
                 }
             }
         }
@@ -30,29 +36,43 @@ export const Footer = styled.footer`
     #SegundaNav {
         background: ${darken(-0.25, CorPrimaria)};
 
-        ul {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            font-size: 16px;
-            padding: 10px;
+        div {
+            max-width: 1200px;
+            margin: auto;
+            padding: 25px 0;
 
-            li {
-                padding: 4px;
-                cursor: pointer;
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
-                &:hover {
-                    color: ${CorSecundaria};
+                font-size: 18px;
+                padding: 10px 0;
+
+                li {
+                    padding: 4px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: ${CorSecundaria};
+                    }
                 }
             }
         }
     }
     #TerceiraNav {
         background: ${CorPrimaria};
-        display: flex;
-        justify-content: space-between;
 
-        ul {
+        div {
+            max-width: 1200px;
+            margin: auto;
+            padding: 35px 0;
+
             display: flex;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+            }
         }
     }
 `;

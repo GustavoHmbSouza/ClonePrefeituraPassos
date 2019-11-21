@@ -4,7 +4,7 @@ import { CorPrimaria } from '../../styles/coresPadrao';
 
 export const Main = styled.main`
     max-width: 1200px;
-    margin: auto;
+    margin: 50px auto;
     display: flex;
 
     #banner1 {
