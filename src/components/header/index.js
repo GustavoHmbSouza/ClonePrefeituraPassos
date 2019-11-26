@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiClock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import { Header } from './styles';
 
 export default function Html() {
@@ -15,7 +15,9 @@ export default function Html() {
                 <nav>
                     <ul>
                         <li>Home</li>
-                        <li>Notícias</li>
+                        <Link to="/noticias">
+                            <li>Notícias</li>
+                        </Link>
                         <li>NFE</li>
                         <li>2º Via IPTU</li>
                         <li>Contas Públicas</li>
