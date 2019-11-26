@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Html from './html';
 
-export default class planejamento extends Component {
+export default class historia extends Component {
     state = {
         loading: false,
     };

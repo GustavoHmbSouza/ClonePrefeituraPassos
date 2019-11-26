@@ -69,6 +69,12 @@ export const Footer = styled.footer`
 
             ul {
                 display: flex;
+
+                li {
+                    padding: 0px 15px;
+                    text-align: center;
+                    cursor: pointer;
+                }
             }
         }
     }

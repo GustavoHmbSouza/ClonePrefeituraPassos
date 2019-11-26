@@ -1,6 +1,11 @@
 import React from 'react';
 import { FiClock } from 'react-icons/fi';
 import { Footer } from './styles';
+import talk from './imgs/talk.png';
+import map from './imgs/map.png';
+import contatoRodape from './imgs/contatoRodape.png';
+import portal from './imgs/portal.png';
+import acesso from './imgs/acesso.png';
 
 export default function Html() {
     return (
@@ -31,7 +36,7 @@ export default function Html() {
                             <li>Turismo</li>
                             <li>Brasão</li>
                             <li>Localização</li>
-                            <li>História</li>
+                            <li>Contatos</li>
                             <li>Hino</li>
                             <li>Agenda de Eventos</li>
                             <li>Parceria</li>
@@ -62,16 +67,30 @@ export default function Html() {
                         <article>
                             <ul>
                                 <li>
-                                    <FiClock />
+                                    <img src={talk} height="50px" alt="" />
                                     <p>Fala Cidadão</p>
                                 </li>
                                 <li>
-                                    <FiClock />
+                                    <img src={map} height="50px" alt="" />
                                     <p>Mapa</p>
                                 </li>
                                 <li>
-                                    <FiClock />
+                                    <img
+                                        src={contatoRodape}
+                                        height="50px"
+                                        alt=""
+                                    />
                                     <p>Fale Conosco</p>
+                                </li>
+                            </ul>
+                        </article>
+                        <article>
+                            <ul>
+                                <li>
+                                    <img src={portal} height="50px" alt="" />
+                                </li>
+                                <li>
+                                    <img src={acesso} height="50px" alt="" />
                                 </li>
                             </ul>
                         </article>

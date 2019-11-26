@@ -1,31 +1,39 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Header } from './styles';
+import { Main } from './styles';
+import Logo from './imgs/logo.png';
 
 export default function Html() {
     return (
         <>
-            <Header>
-                <nav>
-                    <h1>icone principal</h1>
-                    <input type="text" placeholder="Buscar" />
-                    <h1>Icone municipal</h1>
-                    <h1>Icone Portal</h1>
-                </nav>
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <Link to="/noticias">
-                            <li>Notícias</li>
+            <Main>
+                <header>
+                    <div>
+                        <Link to="/">
+                            <img src={Logo} height="100px" alt="" />
                         </Link>
-                        <li>NFE</li>
-                        <li>2º Via IPTU</li>
-                        <li>Contas Públicas</li>
-                        <li>Concursos / Processos Seletivos</li>
-                        <li>Contatos</li>
-                    </ul>
-                </nav>
-            </Header>
+                        <input type="text" placeholder="Buscar" />
+                    </div>
+                    <nav>
+                        <ul>
+                            <Link to="/">
+                                <li>Home</li>
+                            </Link>
+
+                            <Link to="/noticias">
+                                <li>Notícias</li>
+                            </Link>
+                            <li>NFE</li>
+                            <li>2º Via IPTU</li>
+                            <li>Contas Públicas</li>
+                            <li>Concursos / Processos Seletivos</li>
+                            <Link to="/historia">
+                                <li>História</li>
+                            </Link>
+                        </ul>
+                    </nav>
+                </header>
+            </Main>
         </>
     );
 }

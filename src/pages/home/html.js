@@ -2,8 +2,8 @@ import React from 'react';
 import { Main } from './styles';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
-import Img1 from '../../imgs/baner1.jpg';
-import Img2 from '../../imgs/baner2.jpg';
+import Img1 from './imgs/baner1.jpg';
+import Img2 from './imgs/baner2.jpg';
 
 export default function Html() {
     return (
