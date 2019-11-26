@@ -9,54 +9,18 @@ export default function Html() {
                 <nav id="PrimeiraNav">
                     <div>
                         <ul>
-                            <li>
-                                <FiClock />
-                                <p>Administração</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Educação, Cultura, Esporte e Lazer</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Obras, Habitação e Serviços Urbanos</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Agricultura, Pex e Abastecimento</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Fazenda</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Planejamento</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Assitência Social</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Gabinete</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Procuradoria Geral do Município</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Controladoria Geral do Município</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Indústria, Comércio e Turismo</p>
-                            </li>
-                            <li>
-                                <FiClock />
-                                <p>Saúde</p>
-                            </li>
+                            <li>Administração</li>
+                            <li>Educação, Cultura, Esporte e Lazer</li>
+                            <li>Obras, Habitação e Serviços Urbanos</li>
+                            <li>Agricultura, Pex e Abastecimento</li>
+                            <li>Fazenda</li>
+                            <li>Planejamento</li>
+                            <li>Assitência Social</li>
+                            <li>Gabinete</li>
+                            <li>Procuradoria Geral do Município</li>
+                            <li>Controladoria Geral do Município</li>
+                            <li>Indústria, Comércio e Turismo</li>
+                            <li>Saúde</li>
                         </ul>
                     </div>
                 </nav>

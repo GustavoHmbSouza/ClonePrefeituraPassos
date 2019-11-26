@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import { darken } from 'polished';
+import { CorPrimaria } from './coresPadrao';
 
 export default createGlobalStyle`
     *{
@@ -15,7 +17,7 @@ export default createGlobalStyle`
 
     body
     {
-        background: rgb(239, 233, 255);
+        background: ${darken(-0.45, CorPrimaria)};
     }
 
     body, input, button

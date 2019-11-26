@@ -17,17 +17,13 @@ export const Footer = styled.footer`
                 padding: 10px 0;
 
                 li {
-                    display: flex;
                     font-size: 15.9px;
                     padding: 10px 6px;
                     cursor: pointer;
+                    transition: color 0.15s linear;
 
                     &:hover {
                         color: ${CorSecundaria};
-                    }
-
-                    p {
-                        padding-left: 5px;
                     }
                 }
             }
@@ -51,6 +47,7 @@ export const Footer = styled.footer`
                 li {
                     padding: 4px;
                     cursor: pointer;
+                    transition: color 0.15s linear;
 
                     &:hover {
                         color: ${CorSecundaria};

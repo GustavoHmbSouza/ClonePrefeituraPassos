@@ -24,6 +24,7 @@ export const Main = styled.main`
             margin-top: 200px;
             font-size: 40px;
             color: ${CorPrimaria};
+            transition: color 0.15s linear;
         }
 
         p {
