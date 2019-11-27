@@ -6,12 +6,16 @@ export const Main = styled.main`
     max-width: 1200px;
     margin: 50px auto;
 
+    @media (max-width: 400px) {
+        margin: 20px auto;
+    }
+
     section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
 
-        @media (min-width: 320px) {
+        @media (max-width: 400px) {
             display: block;
         }
 
@@ -19,8 +23,9 @@ export const Main = styled.main`
             display: grid;
             grid-template-columns: 1fr 1fr;
 
-            @media (min-width: 320px) {
+            @media (max-width: 400px) {
                 margin: 15px;
+                width: 310px;
             }
 
             img {
@@ -28,7 +33,7 @@ export const Main = styled.main`
                 height: 118px;
                 cursor: pointer;
 
-                @media (min-width: 320px) {
+                @media (max-width: 400px) {
                     width: 140px;
                     height: 85px;
                 }
@@ -40,7 +45,7 @@ export const Main = styled.main`
                     transition: color 0.15s linear;
                     cursor: pointer;
 
-                    @media (min-width: 320px) {
+                    @media (max-width: 400px) {
                         font-size: 12px;
                     }
 
@@ -53,7 +58,7 @@ export const Main = styled.main`
                     transition: color 0.15s linear;
                     cursor: pointer;
 
-                    @media (min-width: 320px) {
+                    @media (max-width: 400px) {
                         font-size: 10px;
                     }
 

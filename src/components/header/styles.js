@@ -13,8 +13,9 @@ export const Main = styled.div`
             display: flex;
             align-items: center;
 
-            @media (min-width: 320px) {
+            @media (max-width: 400px) {
                 display: block;
+                text-align: center;
             }
 
             img {
@@ -30,8 +31,9 @@ export const Main = styled.div`
                 border: 2px solid transparent;
                 transition: border 0.2s linear;
 
-                @media (min-width: 320px) {
-                    width: 260px;
+                @media (max-width: 400px) {
+                    width: 280px;
+                    margin-left: 0px;
                 }
 
                 &:focus {
@@ -43,9 +45,10 @@ export const Main = styled.div`
         nav ul {
             display: flex;
 
-            @media (min-width: 320px) {
-                display: block;
+            @media (max-width: 400px) {
+                display: grid;
                 text-align: center;
+                grid-template-columns: 1fr 1fr;
             }
 
             li {

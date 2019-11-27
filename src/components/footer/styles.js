@@ -11,12 +11,17 @@ export const Footer = styled.footer`
             margin: auto;
             padding: 15px 0;
 
+            @media (max-width: 400px) {
+                width: 300px;
+                padding: 10px 0;
+            }
+
             ul {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
                 padding: 10px 0;
 
-                @media (min-width: 320px) {
+                @media (max-width: 400px) {
                     grid-template-columns: 1fr 1fr;
                 }
 
@@ -26,7 +31,7 @@ export const Footer = styled.footer`
                     cursor: pointer;
                     transition: color 0.15s linear;
 
-                    @media (min-width: 320px) {
+                    @media (max-width: 400px) {
                         font-size: 12px;
                     }
 
@@ -45,13 +50,18 @@ export const Footer = styled.footer`
             margin: auto;
             padding: 25px 0;
 
+            @media (max-width: 400px) {
+                width: 300px;
+                padding: 10px 0;
+            }
+
             ul {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
                 font-size: 18px;
                 padding: 10px 0;
 
-                @media (min-width: 320px) {
+                @media (max-width: 400px) {
                     grid-template-columns: 1fr 1fr;
                     font-size: 16px;
                 }
@@ -79,14 +89,19 @@ export const Footer = styled.footer`
             justify-content: space-between;
             align-items: center;
 
-            @media (min-width: 320px) {
+            @media (max-width: 400px) {
+                width: 300px;
+                padding: 10px 0;
+            }
+
+            @media (max-width: 400px) {
                 display: block;
             }
 
             ul {
                 display: flex;
 
-                @media (min-width: 320px) {
+                @media (max-width: 400px) {
                     justify-content: center;
                 }
 
@@ -96,7 +111,7 @@ export const Footer = styled.footer`
                     cursor: pointer;
 
                     img {
-                        @media (min-width: 320px) {
+                        @media (max-width: 400px) {
                             height: 30px;
                             margin: 20px 0;
                         }
@@ -105,7 +120,7 @@ export const Footer = styled.footer`
             }
 
             p {
-                @media (min-width: 320px) {
+                @media (max-width: 400px) {
                     text-align: center;
                 }
             }

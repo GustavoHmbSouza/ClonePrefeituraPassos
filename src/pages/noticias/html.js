@@ -93,7 +93,7 @@ export default function Html() {
                                 Tente não rir dessas fotos de atores com seus
                                 dublês
                             </p>
-                            <span>Desafio Mundial</span>
+                            <span>Há 60 min</span>
                         </div>
                     </article>
                     <article>
@@ -103,77 +103,77 @@ export default function Html() {
                                 Se você tem uma família, é melhor não comprar
                                 esta raça de cão
                             </p>
-                            <span>Soolide</span>
+                            <span>Há 13 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={ImgMP9} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                Review LG K12 Max: um smartphone basicão de
+                                respeito
                             </p>
-                            <span>90 min</span>
+                            <span>Há 90 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={imgMS1} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                Review Galaxy Note 10+: o melhor smartphone da
+                                Samsung vale o preço?
                             </p>
-                            <span>90 min</span>
+                            <span>30 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={imgMS2} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                Musk explica por que vidro 'inquebrável' do
+                                Cybertruck quebrou ao vivo
                             </p>
-                            <span>90 min</span>
+                            <span>Há 60 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={imgMS3} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                Quanto custa carregar um carro elétrico no
+                                Brasil?
                             </p>
-                            <span>90 min</span>
+                            <span>Há 95 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={imgMS4} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                É guerra! Ford e Tesla se alfinetam sobre quem
+                                tem melhor picape
                             </p>
-                            <span>90 min</span>
+                            <span>Há 80 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={imgMS5} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                Que tal experimentar uma casa totalmente
+                                conectada aqui no Brasil?
                             </p>
-                            <span>90 min</span>
+                            <span>Há 30 min</span>
                         </div>
                     </article>
                     <article>
                         <img src={imgMS6} alt="" />
                         <div>
                             <p>
-                                Se você ver ondas quadradas no oceano
-                                imediatamente sair da água
+                                Xiaomi confirma lançamento do Mi Note 10 (CC9
+                                Pro) para o Brasil
                             </p>
-                            <span>90 min</span>
+                            <span>Há 40 min</span>
                         </div>
                     </article>
                 </section>

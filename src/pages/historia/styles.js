@@ -6,15 +6,16 @@ export const Main = styled.main`
     max-width: 1200px;
     margin: 50px auto;
 
-    @media (min-width: 320px) {
+    @media (max-width: 400px) {
         width: 285px;
+        margin: 5px auto;
     }
 
     p {
         padding: 15px 0;
         font-size: 17px;
 
-        @media (min-width: 320px) {
+        @media (max-width: 400px) {
             font-size: 14px;
         }
     }
@@ -23,7 +24,7 @@ export const Main = styled.main`
         font-size: 27px;
         color: ${darken(0.25, CorSecundaria)};
 
-        @media (min-width: 320px) {
+        @media (max-width: 400px) {
             font-size: 24px;
         }
     }

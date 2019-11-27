@@ -26,10 +26,10 @@ export default function Html() {
                             <li>NFE</li>
                             <li>2º Via IPTU</li>
                             <li>Contas Públicas</li>
-                            <li>Concursos / Processos Seletivos</li>
                             <Link to="/historia">
                                 <li>História</li>
                             </Link>
+                            <li>Concursos / Processos Seletivos</li>
                         </ul>
                     </nav>
                 </header>
