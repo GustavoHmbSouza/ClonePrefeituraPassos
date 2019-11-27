@@ -33,6 +33,7 @@ export const Footer = styled.footer`
 
                     @media (max-width: 600px) {
                         font-size: 12px;
+                        cursor: default;
                     }
 
                     &:hover {
@@ -70,6 +71,10 @@ export const Footer = styled.footer`
                     padding: 4px;
                     cursor: pointer;
                     transition: color 0.15s linear;
+
+                    @media (max-width: 600px) {
+                        cursor: default;
+                    }
 
                     &:hover {
                         color: ${CorSecundaria};
@@ -109,6 +114,10 @@ export const Footer = styled.footer`
                     padding: 0px 15px;
                     text-align: center;
                     cursor: pointer;
+
+                    @media (max-width: 600px) {
+                        cursor: default;
+                    }
 
                     img {
                         @media (max-width: 600px) {

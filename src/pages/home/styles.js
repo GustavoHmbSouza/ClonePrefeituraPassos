@@ -25,6 +25,7 @@ export const Main = styled.main`
             width: 300px;
             height: 400px;
             margin: auto;
+            cursor: default;
         }
 
         h1 {
@@ -71,6 +72,7 @@ export const Main = styled.main`
             height: 370px;
             margin: auto;
             margin-top: 15px;
+            cursor: default;
         }
 
         img {
@@ -111,6 +113,7 @@ export const Main = styled.main`
             height: 370px;
             margin: auto;
             margin-top: 15px;
+            cursor: default;
         }
 
         img {

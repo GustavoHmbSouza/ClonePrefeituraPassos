@@ -36,6 +36,7 @@ export const Main = styled.main`
                 @media (max-width: 600px) {
                     width: 140px;
                     height: 85px;
+                    cursor: default;
                 }
             }
 
@@ -47,6 +48,7 @@ export const Main = styled.main`
 
                     @media (max-width: 600px) {
                         font-size: 12px;
+                        cursor: default;
                     }
 
                     &:hover {
@@ -60,6 +62,7 @@ export const Main = styled.main`
 
                     @media (max-width: 600px) {
                         font-size: 10px;
+                        cursor: default;
                     }
 
                     &:hover {

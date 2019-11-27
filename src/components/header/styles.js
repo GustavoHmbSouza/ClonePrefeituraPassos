@@ -20,6 +20,10 @@ export const Main = styled.div`
 
             img {
                 cursor: pointer;
+
+                @media (max-width: 600px) {
+                    cursor: default;
+                }
             }
 
             input {
@@ -56,6 +60,10 @@ export const Main = styled.div`
                 cursor: pointer;
                 border-radius: 5px;
                 transition: background 0.2s linear;
+
+                @media (max-width: 600px) {
+                    cursor: default;
+                }
 
                 &:hover {
                     background: ${darken(0.05, CorPrimaria)};
