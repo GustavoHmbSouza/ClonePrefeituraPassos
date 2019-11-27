@@ -13,7 +13,7 @@ export const Main = styled.div`
             display: flex;
             align-items: center;
 
-            @media (max-width: 300px) {
+            @media (max-width: 600px) {
                 display: block;
                 text-align: center;
             }
@@ -31,7 +31,7 @@ export const Main = styled.div`
                 border: 2px solid transparent;
                 transition: border 0.2s linear;
 
-                @media (max-width: 300px) {
+                @media (max-width: 600px) {
                     width: 280px;
                     margin-left: 0px;
                 }
@@ -45,7 +45,7 @@ export const Main = styled.div`
         nav ul {
             display: flex;
 
-            @media (max-width: 300px) {
+            @media (max-width: 600px) {
                 display: grid;
                 text-align: center;
                 grid-template-columns: 1fr 1fr;

@@ -7,7 +7,7 @@ export const Main = styled.main`
     margin: 50px auto;
     display: flex;
 
-    @media (max-width: 300px) {
+    @media (max-width: 600px) {
         display: block;
         margin: 20px auto;
     }
@@ -21,7 +21,7 @@ export const Main = styled.main`
         padding: 30px;
         cursor: pointer;
 
-        @media (max-width: 300px) {
+        @media (max-width: 600px) {
             width: 300px;
             height: 400px;
             margin: auto;
@@ -37,7 +37,7 @@ export const Main = styled.main`
             color: ${CorPrimaria};
             transition: color 0.15s linear;
 
-            @media (max-width: 300px) {
+            @media (max-width: 600px) {
                 margin-top: 20px;
                 font-size: 25px;
             }
@@ -47,7 +47,7 @@ export const Main = styled.main`
             margin-top: 20px;
             font-size: 18px;
 
-            @media (max-width: 300px) {
+            @media (max-width: 600px) {
                 font-size: 15px;
             }
         }
@@ -66,7 +66,7 @@ export const Main = styled.main`
         overflow: hidden;
         cursor: pointer;
 
-        @media (max-width: 300px) {
+        @media (max-width: 600px) {
             width: 300px;
             height: 370px;
             margin: auto;
@@ -106,7 +106,7 @@ export const Main = styled.main`
         overflow: hidden;
         cursor: pointer;
 
-        @media (max-width: 300px) {
+        @media (max-width: 600px) {
             width: 300px;
             height: 370px;
             margin: auto;
