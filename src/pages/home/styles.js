@@ -7,6 +7,11 @@ export const Main = styled.main`
     margin: 50px auto;
     display: flex;
 
+    @media (min-width: 320px) {
+        display: block;
+        margin: 30px auto;
+    }
+
     #banner1 {
         border: 1px solid #ccc;
         height: 760px;
@@ -15,6 +20,12 @@ export const Main = styled.main`
         background: rgb(255, 255, 255);
         padding: 30px;
         cursor: pointer;
+
+        @media (min-width: 320px) {
+            width: 300px;
+            height: 400px;
+            margin: auto;
+        }
 
         h1 {
             font-size: 18px;
@@ -25,11 +36,20 @@ export const Main = styled.main`
             font-size: 40px;
             color: ${CorPrimaria};
             transition: color 0.15s linear;
+
+            @media (min-width: 320px) {
+                margin-top: 20px;
+                font-size: 25px;
+            }
         }
 
         p {
             margin-top: 20px;
             font-size: 18px;
+
+            @media (min-width: 320px) {
+                font-size: 15px;
+            }
         }
 
         &:hover h2 {
@@ -45,6 +65,13 @@ export const Main = styled.main`
         position: relative;
         overflow: hidden;
         cursor: pointer;
+
+        @media (min-width: 320px) {
+            width: 300px;
+            height: 370px;
+            margin: auto;
+            margin-top: 15px;
+        }
 
         img {
             height: 375px;
@@ -78,6 +105,13 @@ export const Main = styled.main`
         position: relative;
         overflow: hidden;
         cursor: pointer;
+
+        @media (min-width: 320px) {
+            width: 300px;
+            height: 370px;
+            margin: auto;
+            margin-top: 15px;
+        }
 
         img {
             height: 375px;

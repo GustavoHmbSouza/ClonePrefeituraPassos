@@ -11,14 +11,27 @@ export const Main = styled.main`
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
 
+        @media (min-width: 320px) {
+            display: block;
+        }
+
         article {
             display: grid;
             grid-template-columns: 1fr 1fr;
+
+            @media (min-width: 320px) {
+                margin: 15px;
+            }
 
             img {
                 width: 190px;
                 height: 118px;
                 cursor: pointer;
+
+                @media (min-width: 320px) {
+                    width: 140px;
+                    height: 85px;
+                }
             }
 
             div {
@@ -26,6 +39,10 @@ export const Main = styled.main`
                     margin-bottom: 10px;
                     transition: color 0.15s linear;
                     cursor: pointer;
+
+                    @media (min-width: 320px) {
+                        font-size: 12px;
+                    }
 
                     &:hover {
                         color: ${CorSecundaria};
@@ -35,6 +52,10 @@ export const Main = styled.main`
                 span {
                     transition: color 0.15s linear;
                     cursor: pointer;
+
+                    @media (min-width: 320px) {
+                        font-size: 10px;
+                    }
 
                     &:hover {
                         color: ${CorSecundaria};

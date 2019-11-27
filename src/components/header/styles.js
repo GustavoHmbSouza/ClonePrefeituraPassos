@@ -13,6 +13,10 @@ export const Main = styled.div`
             display: flex;
             align-items: center;
 
+            @media (min-width: 320px) {
+                display: block;
+            }
+
             img {
                 cursor: pointer;
             }
@@ -26,6 +30,10 @@ export const Main = styled.div`
                 border: 2px solid transparent;
                 transition: border 0.2s linear;
 
+                @media (min-width: 320px) {
+                    width: 260px;
+                }
+
                 &:focus {
                     border: 2px solid ${CorSecundaria};
                 }
@@ -34,6 +42,11 @@ export const Main = styled.div`
 
         nav ul {
             display: flex;
+
+            @media (min-width: 320px) {
+                display: block;
+                text-align: center;
+            }
 
             li {
                 padding: 15px 20px;
